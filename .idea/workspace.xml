@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a1aeb7-2f61-4569-a83a-e0871663f7d8" name="Default Changelist" comment="" />
+    <list default="true" id="74a1aeb7-2f61-4569-a83a-e0871663f7d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/모음사전.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/직업군추천하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +31,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +50,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.부족한금액계산하기">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.모음사전">
     <configuration name="부족한금액계산하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.부족한금액계산하기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="직업군추천하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.직업군추천하기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="모음사전" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.모음사전" />
       <module name="Coding_Test" />
       <extension name="coverage">
         <pattern>
@@ -48,9 +106,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.부족한금액계산하기" />
+      <item itemvalue="Application.직업군추천하기" />
+      <item itemvalue="Application.모음사전" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.모음사전" />
+        <item itemvalue="Application.직업군추천하기" />
         <item itemvalue="Application.부족한금액계산하기" />
       </list>
     </recent_temporary>
@@ -66,22 +128,38 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1631288421120">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1663" height="270" key="GridCell.Tab.0.bottom" timestamp="1631609211483">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1631288421120" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1631288421120">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1663" height="270" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1631609211483" />
+    <state width="1663" height="270" key="GridCell.Tab.0.center" timestamp="1631609211483">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1631288421120" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1631288421120">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1663" height="270" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1631609211483" />
+    <state width="1663" height="270" key="GridCell.Tab.0.left" timestamp="1631609211483">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1631288421120" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1631288421120">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1663" height="270" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1631609211483" />
+    <state width="1663" height="270" key="GridCell.Tab.0.right" timestamp="1631609211483">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1631288421120" />
+    <state width="1663" height="270" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1631609211483" />
   </component>
 </project>
