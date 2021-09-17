@@ -18,9 +18,6 @@ public class 입실퇴실 {
             if (arrayList.contains(queue.peek())) {
                 if (arrayList.size() >= 2) {
                     while (true) {
-                        if (arrayList.size() == 0) {
-                            break;
-                        }
                         if (arrayList.get(arrayList.size() - 1).equals(queue.peek())) {
                             answer[queue.peek() - 1] += arrayList.size() - 1;
                             arrayList.remove(queue.poll());
@@ -44,13 +41,13 @@ public class 입실퇴실 {
 
             } else {
                 if (arrayList.size() > 1) {
-                        
+
                     for (int j = 0; j < arrayList.size(); j++) {
                         answer[arrayList.get(j) - 1]++;
 
                     }
                     if (arrayList.size() > 2) {
-                        answer[arrayList.size() - 1] += arrayList.size() - 2;
+                        answer[arrayList.get(arrayList.size() - 1) - 1] += arrayList.size() - 2;
                     }
 
                 }
