@@ -1,4 +1,4 @@
-package com.company.basic;
+package com.company.theory;
 
 public class SingleLinkedList<T> {
     public Node<T> head = null;

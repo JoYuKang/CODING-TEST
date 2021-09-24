@@ -1,4 +1,4 @@
-package com.company.basic;
+package com.company.theory;
 import java.util.ArrayList;
 
 public class queue<T> {
