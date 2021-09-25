@@ -1,14 +1,32 @@
 package com.company.theory;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class QuickSort {
-    public void splitFunc(ArrayList<Integer> dataList) {
+    public static void splitFunc(ArrayList<Integer> dataList) {
         if (dataList.size() <= 1) {
-            return ;
+            return;
         }
         int pivot = dataList.get(0);
+        ArrayList<Integer> leftArr = new ArrayList<Integer>();
+        ArrayList<Integer> rightArr = new ArrayList<Integer>();
+
+        for (int i = 0; i < dataList.size(); i++) {
+            if (dataList.get(i) < pivot) {
+                leftArr.add(dataList.get(i));
+            } else {
+                rightArr.add(dataList.get(i));
+            }
+        }
+        ArrayList<Integer> mergedArr = new ArrayList<>();
+        mergedArr.addAll(leftArr);
+        mergedArr.addAll(Collections.singletonList(pivot));
+        mergedArr.addAll(rightArr);
+        System.out.println(dataList);
     }
+
     /*
     QuickSort.sort() 함수 만들기
     만약 리스트 갯수가 한개이면 해당 리스트 리턴
@@ -20,6 +38,14 @@ public class QuickSort {
     결국 QuickSort.sort(left) + pivot + QuickSort.sort(right) 을 리턴하는 방식으로 재귀 호출
      */
     public static void main(String[] args) {
+        ArrayList<Integer> testData = new ArrayList<Integer>();
 
+        for (int index = 0; index < 10; index++) {
+            testData.add((int)(Math.random() * 100));
+        }
+
+        splitFunc(testData);
     }
+
+
 }
