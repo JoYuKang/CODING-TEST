@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74a1aeb7-2f61-4569-a83a-e0871663f7d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/괄호회전하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/약수의개수와덧셈.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/최소직사각형.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coding_Test/com/company/크레인인형뽑기게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coding_Test/com/company/크레인인형뽑기게임.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +51,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java_Prgrms" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Coding_Test\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.괄호회전하기">
+  <component name="RunManager" selected="Application.최소직사각형">
     <configuration name="크레인인형뽑기게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.크레인인형뽑기게임" />
       <module name="Coding_Test" />
@@ -74,21 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="약수의개수와덧셈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.약수의개수와덧셈" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="괄호회전하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.괄호회전하기" />
+    <configuration name="최소직사각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.최소직사각형" />
       <module name="Coding_Test" />
       <extension name="coverage">
         <pattern>
@@ -119,19 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.theory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,17 +241,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="약수의개수와덧셈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.약수의개수와덧셈" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="괄호회전하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.괄호회전하기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.크레인인형뽑기게임" />
-      <item itemvalue="Application.약수의개수와덧셈" />
-      <item itemvalue="Application.괄호회전하기" />
+      <item itemvalue="Application.최소직사각형" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.괄호회전하기" />
-        <item itemvalue="Application.약수의개수와덧셈" />
+        <item itemvalue="Application.최소직사각형" />
         <item itemvalue="Application.크레인인형뽑기게임" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
@@ -314,29 +323,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1663" height="261" key="GridCell.Tab.0.bottom" timestamp="1632639742240">
-      <screen x="0" y="0" width="1707" height="1027" />
+    <state x="3300" y="278" key="FileChooserDialogImpl" timestamp="1632744472454">
+      <screen x="2560" y="3" width="1920" height="1040" />
+    </state>
+    <state x="3300" y="278" key="FileChooserDialogImpl/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1632744472454" />
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1632744617295">
+      <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1632744617295" />
     <state width="1663" height="261" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1663" height="261" key="GridCell.Tab.0.center" timestamp="1632639742240">
-      <screen x="0" y="0" width="1707" height="1027" />
+    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1632744617295">
+      <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.center/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
+    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1632744617295" />
     <state width="1663" height="261" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1663" height="261" key="GridCell.Tab.0.left" timestamp="1632639742240">
-      <screen x="0" y="0" width="1707" height="1027" />
+    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1632744617295">
+      <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.left/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
+    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1632744617295" />
     <state width="1663" height="261" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1663" height="261" key="GridCell.Tab.0.right" timestamp="1632639742240">
-      <screen x="0" y="0" width="1707" height="1027" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1632744617295">
+      <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.right/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1632744617295" />
     <state width="1663" height="261" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
     <state width="1663" height="261" key="GridCell.Tab.1.bottom" timestamp="1632639742240">
       <screen x="0" y="0" width="1707" height="1027" />
