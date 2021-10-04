@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74a1aeb7-2f61-4569-a83a-e0871663f7d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/prgm/영어끝말잇기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/행렬테두리회전하기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="E:\Coding_Test\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.영어끝말잇기">
+  <component name="RunManager" selected="Application.행렬테두리회전하기">
     <configuration name="크레인인형뽑기게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.크레인인형뽑기게임" />
       <module name="Coding_Test" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="영어끝말잇기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.prgm.영어끝말잇기" />
+    <configuration name="행렬테두리회전하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.행렬테두리회전하기" />
       <module name="Coding_Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.prgm.*" />
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,97 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.theory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="괄호회전하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.괄호회전하기" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="최소직사각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.최소직사각형" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="숫자의표현" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.숫자의표현" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="복서정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.복서정렬하기" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="직업군추천하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.직업군추천하기" />
-      <module name="Coding_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,6 +241,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="영어끝말잇기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.prgm.영어끝말잇기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.prgm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
       <module name="Coding_Test" />
@@ -371,15 +293,106 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="괄호회전하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.괄호회전하기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="최소직사각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.최소직사각형" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="입실퇴실" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.입실퇴실" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="숫자의표현" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.숫자의표현" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="복서정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.복서정렬하기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="직업군추천하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.직업군추천하기" />
+      <module name="Coding_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.크레인인형뽑기게임" />
-      <item itemvalue="Application.영어끝말잇기" />
+      <item itemvalue="Application.행렬테두리회전하기" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.영어끝말잇기" />
+        <item itemvalue="Application.행렬테두리회전하기" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.크레인인형뽑기게임" />
         <item itemvalue="Application.QuickSort" />
@@ -419,69 +432,69 @@
     </state>
     <state x="658" y="272" key="FileChooserDialogImpl/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1632836796616" />
     <state x="3300" y="278" key="FileChooserDialogImpl/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1632803291230" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1633268752364">
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1633335353889">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="177" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633070104898" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633268752364" />
+    <state width="1649" height="179" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633335042854" />
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335353889" />
     <state width="1663" height="261" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1633268752364">
+    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1633335353889">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.center/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="177" key="GridCell.Tab.0.center/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633070104898" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633268752364" />
+    <state width="1649" height="179" key="GridCell.Tab.0.center/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633335042854" />
+    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335353889" />
     <state width="1663" height="261" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1633268752364">
+    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1633335353889">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.left/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="177" key="GridCell.Tab.0.left/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633070104898" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633268752364" />
+    <state width="1649" height="179" key="GridCell.Tab.0.left/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633335042854" />
+    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335353889" />
     <state width="1663" height="261" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1633268752364">
+    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1633335353889">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="259" key="GridCell.Tab.0.right/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632497169057" />
     <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="177" key="GridCell.Tab.0.right/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633070104898" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633268752364" />
+    <state width="1649" height="179" key="GridCell.Tab.0.right/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633335042854" />
+    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335353889" />
     <state width="1663" height="261" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="265" key="GridCell.Tab.1.bottom" timestamp="1633267848859">
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom" timestamp="1633335150884">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="292" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632319040065" />
     <state width="1877" height="230" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="261" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1632836749669" />
-    <state width="1877" height="265" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633267848859" />
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633272396118" />
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335150884" />
     <state width="1663" height="261" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="265" key="GridCell.Tab.1.center" timestamp="1633267848859">
+    <state width="1877" height="265" key="GridCell.Tab.1.center" timestamp="1633335150884">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="292" key="GridCell.Tab.1.center/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632319040065" />
     <state width="1877" height="230" key="GridCell.Tab.1.center/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="261" key="GridCell.Tab.1.center/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1632836749669" />
-    <state width="1877" height="265" key="GridCell.Tab.1.center/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633267848859" />
+    <state width="1877" height="265" key="GridCell.Tab.1.center/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633272396118" />
+    <state width="1877" height="265" key="GridCell.Tab.1.center/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335150884" />
     <state width="1663" height="261" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="265" key="GridCell.Tab.1.left" timestamp="1633267848859">
+    <state width="1877" height="265" key="GridCell.Tab.1.left" timestamp="1633335150884">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="292" key="GridCell.Tab.1.left/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632319040065" />
     <state width="1877" height="230" key="GridCell.Tab.1.left/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="261" key="GridCell.Tab.1.left/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1632836749669" />
-    <state width="1877" height="265" key="GridCell.Tab.1.left/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633267848859" />
+    <state width="1877" height="265" key="GridCell.Tab.1.left/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633272396118" />
+    <state width="1877" height="265" key="GridCell.Tab.1.left/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335150884" />
     <state width="1663" height="261" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
-    <state width="1877" height="265" key="GridCell.Tab.1.right" timestamp="1633267848859">
+    <state width="1877" height="265" key="GridCell.Tab.1.right" timestamp="1633335150884">
       <screen x="2560" y="3" width="1920" height="1040" />
     </state>
     <state width="1663" height="292" key="GridCell.Tab.1.right/0.0.1707.1027/2560.0.1920.1040@0.0.1707.1027" timestamp="1632319040065" />
     <state width="1877" height="230" key="GridCell.Tab.1.right/0.0.1707.1027/2560.0.1920.1040@2560.0.1920.1040" timestamp="1632498680950" />
-    <state width="1663" height="261" key="GridCell.Tab.1.right/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1632836749669" />
-    <state width="1877" height="265" key="GridCell.Tab.1.right/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633267848859" />
+    <state width="1877" height="265" key="GridCell.Tab.1.right/0.0.1707.1027/2560.3.1920.1040@0.0.1707.1027" timestamp="1633272396118" />
+    <state width="1877" height="265" key="GridCell.Tab.1.right/0.0.1707.1027/2560.3.1920.1040@2560.3.1920.1040" timestamp="1633335150884" />
     <state width="1663" height="261" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1632639742240" />
     <state x="250" y="115" key="new project wizard" timestamp="1632823070702">
       <screen x="0" y="0" width="1707" height="1027" />
