@@ -1,17 +1,17 @@
 package com.company.prgm;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+
 
 public class 영어끝말잇기 {
     public static int[] solution(int n, String[] words) {
         int[] answer = {0, 0};
 
-        ArrayList<String> arr = new ArrayList<>();
+        HashSet<String> arr = new HashSet<>();
         arr.add(words[0]);
         for (int i = 1; i < words.length; i++) {
-            String check = arr.get(arr.size() - 1);
-
+            String check = words[i - 1];
             if (arr.contains(words[i]) || check.charAt(check.length() - 1) != words[i].charAt(0)) {
                 answer[0] = arr.size() % n + 1;
                 if ((arr.size() + 1) % n != 0) {

@@ -9,18 +9,14 @@ public class 완주하지못한선수 {
         StringBuilder answer = new StringBuilder();
         Map<String, Integer> map = new TreeMap<>();
         for (int i = 0; i < participant.length; i++) {
-            if (map.get(participant[i]) == null) {
-                map.put(participant[i], 1);
-                continue;
-            }
-            int val = map.get(participant[i]) + 1;
-            map.put(participant[i], val);
+            map.put(participant[i], map.getOrDefault(participant[i],0)+1);
         }
 
 
         for (int i = 0; i < completion.length; i++) {
             int val = map.get(completion[i]) - 1;
             map.put(completion[i], val);
+
         }
 
         for (int i = 0; i < map.size(); i++) {
