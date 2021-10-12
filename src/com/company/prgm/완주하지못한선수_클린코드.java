@@ -25,7 +25,7 @@ public class 완주하지못한선수_클린코드 {
                 break;
             }
         }
-
+        //map.entrySet().stream().filter(e->e.getValue() >0).findFirst().get().getKey();
 
         return answer;
     }

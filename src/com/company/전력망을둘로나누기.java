@@ -15,14 +15,13 @@ public class 전력망을둘로나누기 {
         }
 
         return answer;
-
     }
-
     public static int relationCnt(int idx, int[][] wires) {
 
         Queue<Integer> que = new LinkedList<>();
         List<int[]> list = new ArrayList<>(Arrays.asList(wires));
         //{{1, 2}, {2, 3}, {3, 4}}
+
         int parent = list.get(idx)[0];
         que.add(parent);
         list.remove(idx);
@@ -51,10 +50,9 @@ public class 전력망을둘로나누기 {
         }
         return cnt;
     }
-
-    public static void main(String[] args) {
-        int n = 4;
-        int[][] wires = {{1, 2}, {2, 3}, {3, 4}};
-        System.out.println(solution(n, wires));
-    }
+        public static void main(String[] args) {
+            int n = 4;
+            int[][] wires = {{1, 2}, {2, 3}, {3, 4}};
+            System.out.println(solution(n, wires));
+        }
 }

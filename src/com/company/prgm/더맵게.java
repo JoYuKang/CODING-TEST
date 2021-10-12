@@ -11,9 +11,7 @@ public class 더맵게 {
         }
 
         while (queue.size() >= 2 && queue.peek() < K) {
-            int a = queue.poll();
-            int b = queue.poll();
-            queue.add(a + b * 2);
+            queue.add(queue.poll() + queue.poll() * 2);
             answer++;
         }
 
