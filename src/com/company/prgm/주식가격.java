@@ -10,10 +10,10 @@ public class 주식가격 {
             for (int j = i; j < prices.length - 1; j++) {
                 if (prices[i] <= prices[j]) {
                     cnt++;
-                    answer[i] = cnt;
                 } else {
                     break;
                 }
+                answer[i] = cnt;
             }
         }
         return answer;
