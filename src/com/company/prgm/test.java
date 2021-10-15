@@ -4,39 +4,44 @@ import java.util.Scanner;
 
 public class test {
 
-    public static int[] arr;
-    public static boolean[] visit;
 
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
+        int[] arr = new int[10000001];
+        arr[2] = 1;
+        arr[3] = 1;
+        int answer = 0;
+        int n = in.nextInt();
+        for (int i = 4; i < 10000001; i++) {
+            int a = 9999;
+            int b = 9999;
+            int c = 9999;
+            for (int j = 1; j <= 3; j++) {
+                if (j == 1) {
+                    a = arr[i - 1];
+                }
+                else if (j == 2) {
+                    if (i % 2 == 0) {
+                        b = arr[i / 2];
+                    }
 
-        int N = in.nextInt();
-        int M = in.nextInt();
+                }
+                else {
+                    if (i % 3 == 0) {
+                        b = arr[i / 3];
+                    }
+                }
 
-        arr = new int[M];
-        visit = new boolean[N];
-        dfs(N, M, 0);
+            }
+            int min = Math.min(a, b);
+            min = Math.min(min, c);
+            arr[i] = min + 1 ;
+
+        }
+        System.out.println(arr[n]);
 
     }
 
-    public static void dfs(int N, int M, int depth) {
-        if (depth == M) {
-            for (int val : arr) {
-                System.out.print(val + " ");
-            }
-            System.out.println();
-            return;
-        }
-
-        for (int i = 0; i < N; i++) {
-            if (!visit[i]) {
-                visit[i] = true;
-                arr[depth] = i + 1;
-                dfs(N, M, depth + 1);
-                visit[i] = false;
-            }
-        }
-    }
 
 }
