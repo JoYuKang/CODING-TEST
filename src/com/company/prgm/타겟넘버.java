@@ -22,8 +22,8 @@ public class 타겟넘버 {
         }
         sum += numbers[length];
         dfs(numbers, target, length + 1, sum);
-        // 현재 인덱스의 정수를 -로 합해준다.
-        sum -= numbers[length] *2;
+        // 기존 + 해준 SUM에서 - 를 두 번 해주면 -한 값으로 SUM이 계산
+        sum -= numbers[length] * 2;
 
         dfs(numbers, target, length + 1, sum);
 
