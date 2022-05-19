@@ -31,14 +31,13 @@ package com.company.sam;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.StringTokenizer;
 
 /*
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class Solution1983 {
+class Solution1979 {
     public static void main(String args[]) throws Exception {
 		/*
 		   아래의 메소드 호출은 앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다.
@@ -62,40 +61,54 @@ class Solution1983 {
 		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 		*/
 
-        int[] arr;
-        int mid = 0;
-        int fin = 0;
-        int hw = 0;
-        int circle = 0;
-        int where = 0;
-        int target = 0;
-        String[] test_score = {"D0", "C-", "C0", "C+", "B-", "B0", "B+", "A-", "A0", "A+"};
+        int[][] arr;
+
         for (int test_case = 1; test_case <= T; test_case++) {
+            int sum = 0;
             st = new StringTokenizer(br.readLine(), " ");
-            circle = Integer.parseInt(st.nextToken());
-            where = Integer.parseInt(st.nextToken()) - 1;
-            arr = new int[circle];
-
-            for (int i = 0; i < circle; i++) {
+            int h = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(st.nextToken());
+            arr = new int[h][h];
+            for (int i = 0; i < h; i++) {
                 st = new StringTokenizer(br.readLine(), " ");
-                mid = Integer.parseInt(st.nextToken());
-                fin = Integer.parseInt(st.nextToken());
-                hw = Integer.parseInt(st.nextToken());
-                arr[i] = mid * 35 + fin * 45 + hw * 2;
-            }
-            target = arr[where];
-            Arrays.sort(arr);
-
-            int index = -1;
-            for (int i = 0; i < circle; i++) {
-                if (arr[i] == target) {
-                    index = i;
-                    break;
+                for (int j = 0; j < h; j++) {
+                    arr[i][j] = Integer.parseInt(st.nextToken());
                 }
             }
-            index = index / (circle / 10);
+            for (int i = 0; i < h; i++) {
+                int check = 0;
+                for (int j = 0; j < h; j++) {
+                    if (arr[i][j] == 1) {
+                        check++;
+                    } else {
+                        if (check == w) {
+                            sum++;
+                        }
+                        check = 0;
+                    }
+                }
+                if (check == w) {
+                    sum++;
+                }
+            }
+            for (int i = 0; i < h; i++) {
+                int check = 0;
+                for (int j = 0; j < h; j++) {
+                    if (arr[j][i] == 1) {
+                        check++;
+                    } else {
+                        if (check == w) {
+                            sum++;
+                        }
+                        check = 0;
+                    }
+                }
+                if (check == w) {
+                    sum++;
+                }
+            }
 
-            sb.append("#").append(test_case).append(" ").append(test_score[index]).append("\n");
+            sb.append("#").append(test_case).append(" ").append(sum).append("\n");
         }
         System.out.println(sb);
     }
