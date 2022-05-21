@@ -36,7 +36,7 @@ import java.util.StringTokenizer;
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class Solution1859 {
+class Solution1974 {
     public static void main(String args[]) throws Exception {
 		/*
 		   아래의 메소드 호출은 앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다.
@@ -61,28 +61,80 @@ class Solution1859 {
         /*
 		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 		*/
-        long result = 0;
-        int arr[];
-        int count = 0;
+
+
         for (int test_case1 = 1; test_case1 <= T; test_case1++) {
-            circle = Integer.parseInt(br.readLine());
-            arr = new int[circle];
-            st = new StringTokenizer(br.readLine(), " ");
-            while (st.hasMoreTokens()) {
-                arr[count++] = Integer.parseInt(st.nextToken());
-            }
-            for (int i = arr.length-1; i >= 0; i--) {
-                if (arr[i] > max) {
-                    max = arr[i];
-                    continue;
+            boolean sign = true;
+
+            int[][] arr = new int[9][9];
+            int[] check;
+
+            for (int i = 0; i < 9; i++) {
+                st = new StringTokenizer(br.readLine(), " ");
+                for (int j = 0; j < 9; j++) {
+                    arr[i][j] = Integer.parseInt(st.nextToken());
                 }
-                result += max - arr[i];
             }
 
-            sb.append("#").append(test_case1).append(" ").append(result).append("\n");
-            count = 0;
-            max = 0;
-            result = 0;
+
+            for (int i = 0; i < 9; i++) {
+                check = new int[9];
+                for (int j = 0; j < 9; j++) {
+                    check[arr[i][j] - 1] = 1;
+                }
+                for (int j = 0; j < 9; j++) {
+                    if (check[j] != 1) {
+                        sign = false;
+                        break;
+                    }
+                }
+
+            }
+
+            if (sign) {
+                for (int i = 0; i < 9; i++) {
+                    check = new int[9];
+                    for (int j = 0; j < 9; j++) {
+                        check[arr[j][i] - 1] = 1;
+                    }
+                    for (int j = 0; j < 9; j++) {
+                        if (check[j] != 1) {
+                            sign = false;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (sign) {
+                for (int i = 0; i <= 6; i += 3) {
+                    for (int j = 0; j <= 6; j += 3) {
+                        check = new int[9];
+                        for (int x = i; x < i + 3; x++) {
+                            for (int y = j; y < j + 3; y++) {
+                                check[arr[x][y] - 1] = 1;
+                            }
+
+                        }
+                        for (int y = 0; y < 9; y++) {
+                            if (check[y] != 1) {
+                                sign = false;
+                                break;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+
+            if (sign) {
+                sb.append("#").append(test_case1).append(" ").append(1).append("\n");
+            } else {
+                sb.append("#").append(test_case1).append(" ").append(0).append("\n");
+            }
+
+
         }
         System.out.println(sb);
     }
