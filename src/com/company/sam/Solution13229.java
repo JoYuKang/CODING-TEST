@@ -36,7 +36,7 @@ import java.util.StringTokenizer;
    사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
    이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
  */
-class Solution14178 {
+class Solution1984 {
     public static void main(String args[]) throws Exception {
 		/*
 		   아래의 메소드 호출은 앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다.
@@ -55,24 +55,34 @@ class Solution14178 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
         StringBuilder sb = new StringBuilder();
-        int T = Integer.parseInt(br.readLine());
-
-        /*
+        int T = Integer.parseInt(br.readLine().trim());
+		/*
 		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 		*/
-        long result = 0;
-
-        for (int test_case1 = 1; test_case1 <= T; test_case1++) {
+        int temp = 0;
+        double sum = 0;
+        int max = 0;
+        int min = Integer.MAX_VALUE;
+        int avg = 0;
+        for (int test_case = 1; test_case <= T; test_case++) {
+            sum = 0;
             st = new StringTokenizer(br.readLine(), " ");
-            int i = Integer.parseInt(st.nextToken());
-            int D = Integer.parseInt(st.nextToken());
+            max = 0;
+            min = Integer.MAX_VALUE;
+            while (st.hasMoreTokens()) {
 
-            result = i  / ((D * 2) + 1);
-            if (i  % ((D * 2) + 1) != 0) {
-                result++;
+                temp = Integer.parseInt(st.nextToken());
+                sum += temp;
+                if (temp > max) {
+                    max = temp;
+                }
+                if (temp < min) {
+                    min = temp;
+                }
             }
-
-            sb.append("#").append(test_case1).append(" ").append(result).append("\n");
+            sum = sum - max - min;
+            avg = (int)Math.round(sum / 8);
+            sb.append("#").append(test_case).append(" ").append(avg).append("\n");
         }
         System.out.println(sb);
     }
