@@ -63,29 +63,18 @@ class Solution10912 {
 		*/
 
         for (int test_case = 1; test_case <= T; test_case++) {
-            char[] ch = br.readLine().toCharArray();
-
-            // check 배열: a: 0 ~ z: 25
-            int[] check = new int[26];
-
-            // 입력된 문자에 해당하는 인덱스 찾고 +1
-            for (char c : ch) {
-                check[c - 'a']++;
-            }
-
-            // 짝수개가 아닌 문자열 찾기
-            StringBuilder str = new StringBuilder();
-            for (int i = 0; i < check.length; i++) {
-                if (check[i] % 2 != 0) {
-                    str.append((char) (i + 'a'));
+            int w = Integer.parseInt(br.readLine());
+            char[] word1 = br.readLine().toCharArray();
+            char[] word2 = br.readLine().toCharArray();
+            int count = word1.length;
+            for (int i = 0; i < word1.length; i++) {
+                if (word1[i] != word2[i]) {
+                    count--;
                 }
             }
 
-            if (str.toString().equals("")) {
-                sb.append("#").append(test_case).append(" ").append("Good").append("\n");
-            } else {
-                sb.append("#").append(test_case).append(" ").append(str).append("\n");
-            }
+
+            sb.append("#").append(test_case).append(" ").append(count).append("\n");
 
 
         }
